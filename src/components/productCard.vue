@@ -2,7 +2,7 @@
 <template>
   <swiper :slidesPerView="1" :spaceBetween="30" :loop="true" :pagination="{
     clickable: true,
-  }" :navigation="true" class="mySwiper">
+  }" class="mySwiper">
     <swiper-slide> <img src="../assets/IMG_7234.jpg" alt=""> </swiper-slide>
     <swiper-slide> <img src="../assets/IMG_7235.jpg" alt=""> </swiper-slide>
     <swiper-slide> <img src="../assets/IMG_7236.jpg" alt=""> </swiper-slide>
@@ -16,7 +16,6 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/swiper.scss";
 
 import "swiper/components/pagination/pagination.min.css"
-import "swiper/components/navigation/navigation.min.css"
 
 import "../assets/styles.css";
 
